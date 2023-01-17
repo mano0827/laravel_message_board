@@ -1,0 +1,99 @@
+/* 投稿の大枠のスタイル */
+.message_container{
+  width:70%; 
+  height:auto; 
+  background-color:rgb(237, 236, 236);
+}
+
+/* 入力系の投稿の大枠のスタイル */
+.create_container{
+  width:55%; 
+  height:auto; 
+  /* background-color:rgb(227, 228, 210); */
+  background-color:rgb(237, 236, 236);
+}
+
+/* 投稿本文の文字のスタイル */
+.message_content{
+  color: black;
+}
+
+
+/* ホーム画面の投稿内容 */
+.text_item {
+  overflow: hidden;
+  display:-webkit-inline-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+} 
+
+
+/* 投稿枠全体のスタイル */
+.message_box{
+  width:95%; 
+  height:auto; 
+  background-color:white;
+}
+
+.form-control{
+  height:10em;
+}
+
+/* 各投稿のスタイル */
+.post_box{
+  border: 1px rgb(232, 232, 232) solid;
+}
+
+/* 新規投稿画面等の投稿画面のスタイル */
+.message_form{
+  width:92%; 
+  height:auto;
+}
+
+/* 新規渡航アイコン */
+.fa-pen-to-square{
+  color: black;
+  font-size:x-large;
+}
+
+/* 返信アイコン */
+.fa-reply{
+  color: black;
+  font-size:large;
+}
+
+/* 返信一覧アイコン */
+.fa-comment-dots{
+  color: black;
+  font-size:large;
+}
+
+/* 返信一覧の枠 */
+.comment_box{
+  width:95%; 
+  border-bottom: 1px rgb(232, 232, 232) solid;
+}
+
+/* 返信のユーザ名 */
+.comment_user{
+  color: black;
+}
+
+/* 返信の文章 */
+.comment_content{
+  color: black;
+}
+
+/* 詳細画面のユーザ情報等 */
+.large{
+  font-size: 17px;
+}
+
+/* コメントのカウント数 */
+.comment_count{
+  color: black;
+}
+
+p{
+  margin-bottom: 0px;
+}
